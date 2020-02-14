@@ -1,17 +1,10 @@
 <template>
-  <header id="header">
-    <p>Home</p>
-  </header>
+    <header class="header">
+        header
+    </header>
 </template>
-
 <script>
 export default {
-  name: 'Header',
+    name: 'Header',
 }
 </script>
-
-<style scoped>
-  #header{
-    color: #42b983;
-  }
-</style>
