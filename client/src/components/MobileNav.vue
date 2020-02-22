@@ -9,7 +9,7 @@
       <router-link to="/cart">Cart</router-link>
       <router-link to="/login">Account</router-link>
       <p>Search</p>
-      <div class="menu">
+      <div class="menu" @click="toggleActive">
         <router-link to="/">Home</router-link>
         <router-link to="/cloths">Cloths</router-link>
         <router-link to="/sales">Sales</router-link>
@@ -23,6 +23,9 @@
 export default {
   name: "MobileNav",
   methods: {
+    works() {
+      console.log("works");
+    },
     toggleActive() {
       const menu = document.querySelector(".menu");
       const bars = document.querySelectorAll(".bar");

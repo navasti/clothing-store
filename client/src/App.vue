@@ -27,4 +27,19 @@ html {
   font-size: 10px;
   font-family: "Roboto", "sans-serif";
 }
+
+// global products class
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2rem 0;
+    .item{
+      width: 48%;
+      p{font-size: 1.4rem;}
+      span{font-size: 1.4rem;}
+      img {width: 100%;}
+    }
+  }
 </style>
