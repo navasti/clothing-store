@@ -10,6 +10,8 @@ import CreateAccount from '../views/CreateAccount.vue';
 import Login from '../views/Login.vue';
 import Sales from '../views/Sales.vue';
 import Cloths from '../views/Cloths.vue';
+import ForgottenPassword from '../views/ForgottenPassword.vue';
+import SearchResults from '../views/SearchResults.vue';
 
 Vue.use(VueRouter)
 
@@ -62,6 +64,16 @@ const routes = [{
     path: '/cloths',
     name: 'Cloths',
     component: Cloths,
+  },
+  {
+    path: '/forgotten-password',
+    name: 'ForgottenPassword',
+    component: ForgottenPassword,
+  },
+  {
+    path: '/search-results',
+    name: 'SearchResults',
+    component: SearchResults,
   }
 ]
 

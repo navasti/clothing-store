@@ -1,31 +1,29 @@
 <template>
-  <div class="create-account">
-      <h1>Create an account</h1>
-      <form>
+<div class="forgotten-password">
+    <h1>Recover your password</h1>
+    <form>
         <label for="username">Username</label>
         <input type="text" id="username">
         <label for="email">Email</label>
         <input type="email" id="email">
-        <label for="password">Password</label>
-        <input type="password" id="password">
-        <button @click="createAccount">Sign up</button>
+        <button @click="recoverPassword">Recover</button>
     </form>
-  </div>
+</div>
 </template>
 
 <script>
 export default {
-    name: 'CreateAccount',
+    name: 'ForgottenPassword',
     methods: {
-      createAccount(e){
-        e.preventDefault();
-      }
+        recoverPassword(e){
+            e.preventDefault();
+        }
     },
 }
 </script>
 
 <style lang="scss" scoped>
-.create-account{
+.forgotten-password{
   h1{margin-bottom: .5rem;}
   form{
     button{margin: 1.5rem 0 0 0; }

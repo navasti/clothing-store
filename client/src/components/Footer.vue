@@ -24,7 +24,7 @@ footer {
     text-transform: uppercase;
     color: #ccc;
     text-decoration: none;
-    padding: 1rem 0.5rem;
+    padding: 1.5rem 0.5rem;
     font-size: 1.2rem;
   }
 }
