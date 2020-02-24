@@ -28,10 +28,7 @@
       </div>
     </div>
     <div class="promotion">
-      <img
-        src="https://cdn.pixabay.com/photo/2018/01/29/17/01/beautiful-3116587_960_720.jpg"
-        alt="beautiful"
-      />
+      <h1>Check out our sales!</h1>
     </div>
     <div class="get-inspired">
       <h1>Get Inspired</h1>
@@ -74,9 +71,18 @@ export default {
     }
   }
   .promotion {
-    img {
-      width: 100%;
-    }
+    background: linear-gradient(to bottom, rgba(0, 6, 15, 0.6), rgba(0, 0, 0, 0.4)),
+    url("https://cdn.pixabay.com/photo/2018/01/29/17/01/beautiful-3116587_960_720.jpg") ;
+    // background-image: url();
+    height:400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{font-size: 3rem; color: #ddd;}
   }
   .get-inspired {
     .slider {

@@ -1,6 +1,5 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
     <nav class="quick-nav">
       <p>Who</p>
       <p>Why</p>
@@ -25,7 +24,7 @@
           </div>
         </div>
         <div class="contact">
-          <h3>Contact Us</h3>
+          <h2>Contact Us</h2>
           <div class="tele">
             <font-awesome-icon icon="phone-alt" />
             <p>+44 7480728290</p>
@@ -50,12 +49,12 @@ export default {
 
 <style lang="scss" scoped>
 .about{
-  h1{font-size:  2.8rem; text-align: center; margin: 1rem 0;}
   svg{font-size: 2rem; margin-right: 1rem;}
-  h2{font-size: 2.2rem;}
+  h2{font-size: 2.2rem; margin-bottom: 1rem;}
   p{font-size: 1.6rem; line-height: 1.4; text-align: justify; letter-spacing: 1px;}
   .quick-nav{
     background-color: #ddd;
+    margin: 2rem 0 1rem 0;
     display: flex;
     justify-content: space-around;
     border-top: 1px solid #222;
@@ -69,10 +68,9 @@ export default {
   .who,
   .where,
   .why{
-    padding: 1.5rem 1rem;
+    padding: 1.5rem .7rem;
   }
   .where{
-    h3{font-size: 2rem; margin-top: 1rem;}
     .location{
       display: flex;
       align-items: center;
@@ -80,6 +78,7 @@ export default {
     .contact{
       .tele,
       .mail{display: flex;}
+      h2{font-size: 2rem; margin-top: 1rem;}
     }
   }
   .map{
