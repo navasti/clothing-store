@@ -80,15 +80,15 @@ export default {
     position: relative;
     z-index: 999;
     flex-direction: column;
-    width: 4.5rem;
-    padding: 0.5rem;
+    width: 5.5rem;
+    padding: 1.5rem 1rem;
     .bar {
       &.active {
         background-color: #fff;
       }
       width: 100%;
       height: 0.4rem;
-      margin-bottom: 0.3rem;
+      margin-bottom: 0.4rem;
       background-color: #222;
       border-radius: 1rem;
       &:last-child {
@@ -101,8 +101,8 @@ export default {
     a,
     p {
       text-decoration: none;
-      font-size: 1.8rem;
-      padding: 0.8rem;
+      font-size: 1.9rem;
+      padding: 1rem;
       color: #222;
     }
   }

@@ -43,11 +43,16 @@ html {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    margin: 2rem 0;
+    margin: 2rem 0 2.5rem 0;
     .item{
       width: 48%;
-      p{font-size: 1.4rem;}
-      span{font-size: 1.4rem;}
+      margin-bottom: 1rem;
+      border: 1px solid rgba(0,0,0,.3);
+      .price{
+        padding: .5rem;
+        p{font-size: 1.4rem; margin-bottom: .5rem;}
+        span{font-size: 1.4rem;}
+      }
       img {width: 100%;}
     }
   }

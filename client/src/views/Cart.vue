@@ -147,7 +147,7 @@ export default {
   .total{
     display: flex;
     justify-content: flex-end;
-    margin: 2rem .5rem;
+    margin: 2rem .5rem 1rem .5rem;
     p{
       font-size: 1.8rem;
     }

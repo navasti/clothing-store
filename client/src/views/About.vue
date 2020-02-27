@@ -83,7 +83,7 @@ export default {
   }
   .map{
     background-color: #444;
-    height: 30rem;
+    height: 35rem;
     color: #fff;
   }
 }
