@@ -19,7 +19,7 @@
           <font-awesome-icon icon="map-marked-alt" />
           <div>
             <p>Trafalgar Square,</p>
-            <p>GV5C+6C, London,</p>
+            <p>GV5C+6Q, London,</p>
             <p>Great Britain</p>
           </div>
         </div>
@@ -36,7 +36,9 @@
         </div>
     </div>
     <div class="map">
-      <p>map</p>
+      <gmap-map :center="center" :zoom="7" style="width: 100%; height: 100%">
+        <gmap-marker :key="index" v-for="(m, index) in markers" :position="m.position" :clickable="true" :draggable="true" @click="center=m.position"></gmap-marker>
+      </gmap-map>
     </div>
   </div>
 </template>
@@ -44,6 +46,14 @@
 <script>
 export default {
   name: 'About',
+  data(){
+    return{
+      center: {lat: 51.5080593, lng: -0.1281717},
+      markers: [{
+        position: {lat: 51.5080593, lng: -0.1281717}
+      }]
+    }
+  },
 }
 </script>
 
