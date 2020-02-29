@@ -33,4 +33,14 @@ export default {
     margin-bottom: 1rem;
   }
 }
+
+@media (min-width: 750px){
+.terms-condition{
+  margin-bottom: 3rem;
+  padding: 0 1.5rem;
+  h1{font-size: 3.8rem; margin: 2.5rem 0 1rem 0;}
+  h2{font-size: 2.4rem; letter-spacing: 1px; padding: 2rem 0 1rem 0;}
+   p{font-size: 2.2rem; letter-spacing: 2px; line-height: 1.6;}
+}
+}
 </style>

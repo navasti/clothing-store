@@ -6,6 +6,8 @@ import {faPhoneAlt} from '@fortawesome/free-solid-svg-icons';
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import {faMapMarkedAlt} from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome';
+import {faChevronRight} from '@fortawesome/free-solid-svg-icons';
+import {faChevronLeft} from '@fortawesome/free-solid-svg-icons';
 import * as VueGoogleMaps from 'vue2-google-maps';
 
 Vue.use(VueGoogleMaps, {
@@ -15,6 +17,8 @@ Vue.use(VueGoogleMaps, {
 })
 
 library.add(faMapMarkedAlt)
+library.add(faChevronRight)
+library.add(faChevronLeft)
 library.add(faPhoneAlt)
 library.add(faEnvelope)
 

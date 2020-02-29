@@ -49,8 +49,14 @@ export default {
     font-size: 2.8rem;
   }
   .products{
-    margin: 2rem 0 0 0;
+    margin: 2rem 0 2.5rem 0;
   }
     // .available-products{font-size: 2rem; text-align: center;}
+}
+
+@media (min-width: 750px){
+.sales{
+   h1 {margin: 2rem 0 1.5rem 0; font-size: 3.8rem;}
+}
 }
 </style>

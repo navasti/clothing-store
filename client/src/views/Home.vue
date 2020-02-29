@@ -19,9 +19,9 @@
     <div class="get-inspired">
       <h1>Get Inspired</h1>
       <div class="slider">
-        <p>L</p>
+        <div class="left" @click="previousSlide"><font-awesome-icon icon="chevron-left" /></div>
         <img src="https://cdn.pixabay.com/photo/2016/10/16/12/28/mehndi-designs-1745048_960_720.jpg" alt="mehndi"/>
-        <p>R</p>
+        <div class="right" @click="nextSlide"><font-awesome-icon icon="chevron-right" /></div>
       </div>
     </div>
   </div>
@@ -29,7 +29,15 @@
 
 <script>
 export default {
-  name: "Home"
+  name: "Home",
+  methods: {
+    nextSlide(){
+    console.log('next')
+    },
+    previousSlide(){
+      console.log('previous')
+    },
+  },
 };
 </script>
 
@@ -43,7 +51,7 @@ export default {
   }
   .new-collection {
     margin: 1.5rem 0 2rem 0;
-    padding: 0.5rem;
+    padding: .8rem;
     .gallery {
       width: 100%;
       display: flex;
@@ -51,7 +59,7 @@ export default {
       justify-content: space-between;
       img {
         width: 49%;
-        margin: 0.3rem 0;
+        margin: 0.4rem 0;
       }
     }
   }
@@ -73,16 +81,49 @@ export default {
     p{font-size: 1.6rem; color: #ddd;}
   }
   .get-inspired {
-    margin-top: 2.5rem;
-    h1{padding: 0 .5rem;}
+    margin: 2.5rem 0;
+    h1{width: 85%; margin: 0 auto 1rem auto;}
     .slider {
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: space-around;
+      .left,
+      .right{
+        cursor: pointer;
+        padding: .8rem;
+        height: 10rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        svg{
+          font-size: 1.8rem;
+        }
+      }
       img {
         width: 85%;
       }
     }
   }
+}
+@media (min-width: 750px){
+.home {
+  h1{font-size: 3.4rem; letter-spacing: 2px; margin-bottom: 1rem;}
+  .new-collection {padding: 1rem;
+    .gallery {img {margin: 0.5rem 0;}}
+  }
+  .promotion {
+    letter-spacing: 2px;
+    h2{font-size: 3.6rem; margin-bottom: 1.8rem;}
+    p{font-size: 2.4rem;}
+  }
+  .get-inspired {
+    .slider {
+      .left,
+      .right{ padding: 1.5rem;  height: 15rem;
+        svg{font-size: 3.6rem;}
+      }
+    }
+  }
+}
 }
 </style>

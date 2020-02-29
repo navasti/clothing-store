@@ -56,7 +56,7 @@ export default {
     p{font-size: 1.4rem; letter-spacing: 1px; text-align: justify; margin-top: .5rem; }
   }
   .new-question{
-    margin-top: 2rem;
+    margin: 2rem 0 3rem 0;
     padding: 0 1rem;
     h2{font-size: 1.8rem; letter-spacing: 1px; text-align: center;}
     p{font-size: 1.5rem; letter-spacing: 1px; text-align: center;}
@@ -68,8 +68,33 @@ export default {
       label{font-size: 1.6rem; padding: .7rem 0 .3rem 0;}
       input,
       textarea{padding: .4rem .8rem; font-size: 1.6rem;}
-      button{text-transform: uppercase; padding: .5rem 1rem; font-size: 1.6rem; letter-spacing: 2px; background-color: #fff; border: 1px solid #aaa; margin-top: 1rem;}
+      button{text-transform: uppercase; padding: .5rem 1rem; font-size: 1.6rem; letter-spacing: 2px; background-color: #fff; border: 1px solid #444; margin-top: 1rem;}
     }
   }
+}
+
+@media (min-width: 750px){
+.faq{
+  h1{font-size: 3.8rem; margin: 2.5rem 0 1rem 0;}
+  .question{
+    padding: 1rem 1.5rem;
+    h2{font-size: 2.6rem;}
+    p{font-size: 2rem; letter-spacing: 2px; line-height: 1.6;}
+  }
+  .new-question{
+    margin-top: 2rem;
+    padding: 0 1rem;
+    h2{font-size: 2.8rem;}
+    p{font-size: 2.2rem; letter-spacing: 2px;}
+    form{
+      width: 60%;
+      margin: 1rem auto 0 auto;
+      label{font-size: 2.4rem; padding: 1rem 0;}
+      input,
+      textarea{padding: 1rem; font-size: 2rem;}
+      button{padding: .8rem 1rem; font-size: 2.4rem; margin-top: 1.5rem;}
+    }
+  }
+}
 }
 </style>

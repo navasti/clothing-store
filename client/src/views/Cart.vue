@@ -1,6 +1,6 @@
 <template>
   <div class="cart">
-    <h1>Cart</h1>
+    <h1>Your Cart</h1>
     <div class="progress">
       <div class="order active">
         <div><span>1</span></div>
@@ -132,6 +132,7 @@ export default {
         .description{
           padding: 1rem .5rem;
           font-size: 1.5rem;
+          p{padding: .5rem 0;}
         }
       }
       .amounts{
@@ -147,7 +148,7 @@ export default {
   .total{
     display: flex;
     justify-content: flex-end;
-    margin: 2rem .5rem 1rem .5rem;
+    margin: 2rem .5rem 2.5rem .5rem;
     p{
       font-size: 1.8rem;
     }
@@ -160,5 +161,47 @@ export default {
       letter-spacing: 1px;
     }
   }
+}
+
+@media (min-width: 750px){
+.cart{
+  h1{font-size: 3.8rem; margin: 2.5rem 0;}
+  .progress{
+    margin-bottom: 7rem;
+    .order,
+    .delivery,
+    .payment{
+      p{left: 50%; bottom: -3.8rem; transform: translateX(-50%); font-size: 2.4rem;}
+      span{font-size: 2.8rem;}
+      div{width: 6rem; height: 6rem; line-height: 5.8rem;}
+    }
+    .line{width: 8rem;}
+  }
+  .in-cart{
+    .entities{
+      padding: 1rem 1.5rem;
+      p{font-size: 2.4rem;}
+    }
+    .item{
+      padding: 1rem 1.5rem;
+      .about-item{
+       flex-basis: 40%;
+        img{width: 60%;}
+        .description{font-size: 2rem;}
+      }
+      .amounts{font-size: 2.4rem;}
+    }
+  }
+    .total{
+    margin: 2.5rem 1.5rem 3.5rem 1.5rem;
+    p{font-size: 2.6rem;}
+    .place-order{
+      padding: .8rem 1.3rem;
+      font-size: 2.4rem;
+      margin-top: 1rem;
+      letter-spacing: 2px;
+    }
+  }
+}
 }
 </style>

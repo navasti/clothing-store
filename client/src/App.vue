@@ -26,6 +26,7 @@ export default {
 html {
   font-size: 10px;
   font-family: "Arial", "sans-serif";
+  scroll-behavior: smooth;
   body{
     #app{
       overflow-x: hidden;
@@ -80,4 +81,18 @@ html {
         }
     }
   }
+
+@media (min-width: 750px){
+.products {
+    margin: 2rem 0 2.5rem 0;
+    .item{
+      margin-bottom: 1.2rem;
+      .price{
+        padding: .5rem 1rem;
+        p{font-size: 2.4rem;}
+        span{font-size: 2.4rem;}
+      }
+    }
+  }
+}
 </style>

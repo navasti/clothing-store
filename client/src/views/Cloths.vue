@@ -75,7 +75,14 @@ export default {
     width: 14rem;
     text-align: center;
     padding: 1rem;
-    margin: 0 auto;
+    margin: 0 auto 2.5rem auto;
   }
+}
+@media (min-width: 750px){
+.cloths{
+   h1 {margin: 2rem 0 1.5rem 0; font-size: 3.8rem;}
+   .filter {p {padding: 1rem; font-size: 2.6rem;}}
+  .load-more {font-size: 2.6rem; width: 20rem;}
+}
 }
 </style>

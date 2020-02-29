@@ -30,8 +30,20 @@ export default {
   h2{font-size: 1.6rem; text-transform: uppercase; letter-spacing: 1px; padding: 1.5rem 0 .5rem 0;}
   p{font-size: 1.4rem; letter-spacing: 1px; text-align: justify; line-height: 1.4;}
   .costs{
-    span{display: block; font-size: 1.4rem; padding: .3rem 0;}
+    span{display: block; font-size: 1.4rem; padding: .3rem 0; letter-spacing: 1px;}
     p{margin-top: .5rem;}
   }
+}
+
+@media (min-width: 750px){
+.shipping-returns{
+  padding: 0 1.5rem;
+  h1{font-size: 3.8rem; margin: 2.5rem 0 1rem 0;}
+  h2{font-size: 2.6rem; letter-spacing: 1px; padding: 2rem 0 1rem 0;}
+  p{font-size: 2.2rem; letter-spacing: 2px; line-height: 1.6;}
+  .costs{
+    span{font-size: 2.2rem; padding: .3rem 0; }
+  }
+}
 }
 </style>

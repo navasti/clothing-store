@@ -100,6 +100,7 @@ export default {
     display: flex;
     a,
     p {
+      cursor: pointer;
       text-decoration: none;
       font-size: 1.9rem;
       padding: 1rem;
@@ -129,6 +130,19 @@ export default {
       font-size: 2.8rem;
       text-transform: uppercase;
       letter-spacing: 2px;
+    }
+  }
+}
+@media (min-width: 750px){
+  .mobile-nav{
+    .hamburger{width: 6.5rem;
+      .bar{height: 0.5rem;margin-bottom: .5rem;}
+    }
+    .managment{ a, p {font-size: 2.6rem; padding: 1.4rem;}}
+    .menu{a {padding: 2rem;font-size: 3.8rem;}}
+    .searcher{
+      input, a{font-size: 2.4rem; padding: .8rem 1.4rem;}
+      a{letter-spacing: 3px;}
     }
   }
 }
