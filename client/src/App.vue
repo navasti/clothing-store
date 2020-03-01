@@ -83,15 +83,34 @@ html {
   }
 
 @media (min-width: 750px){
-.products {
-    margin: 2rem 0 2.5rem 0;
-    .item{
-      margin-bottom: 1.2rem;
-      .price{
-        padding: .5rem 1rem;
+.products {margin: 2rem 0 2.5rem 0;
+    .item{margin-bottom: 1.2rem;
+      .price{padding: .5rem 1rem;
         p{font-size: 2.4rem;}
         span{font-size: 2.4rem;}
       }
+    }
+  }
+}
+
+@media (min-width: 560px){
+.create-account,
+.forgotten-password,
+.login{width: 75%;}
+}
+@media (min-width: 700px){
+.create-account,
+.forgotten-password,
+.login{width: 60%;}
+}
+@media (min-width: 850px){
+.create-account,
+.forgotten-password,
+.login{width: 45%;
+  form{
+    label{font-size: 2.2rem;}
+    input{font-size: 2rem;}
+    button{padding: 0.8rem 1.3rem;font-size: 2.2rem;}
     }
   }
 }

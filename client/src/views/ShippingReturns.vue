@@ -26,6 +26,7 @@ export default {
 <style lang="scss" scoped>
 .shipping-returns{
   padding: 0 .7rem;
+  margin-bottom: 3rem;
   h1{text-align: center; font-size: 2.8rem; letter-spacing: 2px; margin: 2.5rem 0 1rem 0;}
   h2{font-size: 1.6rem; text-transform: uppercase; letter-spacing: 1px; padding: 1.5rem 0 .5rem 0;}
   p{font-size: 1.4rem; letter-spacing: 1px; text-align: justify; line-height: 1.4;}

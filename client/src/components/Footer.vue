@@ -31,7 +31,7 @@ footer {
   footer{
     a{
       padding: 1.5rem 1rem;
-      font-size: 1.8rem;
+      font-size: 1.6rem;
     }
   }
 }

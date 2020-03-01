@@ -82,11 +82,12 @@ export default {
   }
   .get-inspired {
     margin: 2.5rem 0;
-    h1{width: 85%; margin: 0 auto 1rem auto;}
+    padding: 0 .8rem;
+    h1{width: 70%; margin: 0 auto 1rem auto;}
     .slider {
       display: flex;
       align-items: center;
-      justify-content: space-around;
+      justify-content: center;
       .left,
       .right{
         cursor: pointer;
@@ -96,18 +97,19 @@ export default {
         flex-direction: column;
         justify-content: center;
         svg{
-          font-size: 1.8rem;
+          margin: 0 1.5rem;
+          font-size: 2rem;
         }
       }
       img {
-        width: 85%;
+        width: 70%;
       }
     }
   }
 }
 @media (min-width: 750px){
 .home {
-  h1{font-size: 3.4rem; letter-spacing: 2px; margin-bottom: 1rem;}
+  h1{font-size: 2.8rem; letter-spacing: 2px; margin-bottom: 1rem;}
   .new-collection {padding: 1rem;
     .gallery {img {margin: 0.5rem 0;}}
   }
@@ -117,11 +119,13 @@ export default {
     p{font-size: 2.4rem;}
   }
   .get-inspired {
+    h1{width: 55%;}
     .slider {
       .left,
       .right{ padding: 1.5rem;  height: 15rem;
-        svg{font-size: 3.6rem;}
+        svg{font-size: 2.6rem;}
       }
+      img{width: 55%;}
     }
   }
 }
