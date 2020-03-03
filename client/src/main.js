@@ -12,7 +12,7 @@ import * as VueGoogleMaps from 'vue2-google-maps';
 
 Vue.use(VueGoogleMaps, {
   load: {
-    key: 'AIzaSyAcSbm4cJ9mSjQgKn2CzW2eu1YTX7KH9UA',
+    key: 'qwerty123',
   },
 })
 
