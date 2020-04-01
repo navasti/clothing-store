@@ -2,7 +2,7 @@ import React from 'react'
 
 const FAQ = () => {
     return (
-    <div class="faq">
+    <section class="faq">
         <h1>FAQ</h1>
         <div class="question">
           <h2>1. Etiam consectetur sem vitae purus aliquam blandit id nec dui? </h2>
@@ -35,7 +35,7 @@ const FAQ = () => {
             <button>Send</button>
           </form>
         </div>
-      </div>
+      </section>
     )
 }
 

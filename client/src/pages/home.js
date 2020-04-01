@@ -2,9 +2,9 @@ import React from 'react'
 
 const Home = () => {
     return (
-    <div class="home">
+    <main class="home">
         <div class="welcome-picture">
-        <img src="https://cdn.pixabay.com/photo/2016/11/21/16/01/attractive-1846127_960_720.jpg" alt="fashion" />
+            <img src="https://cdn.pixabay.com/photo/2016/11/21/16/01/attractive-1846127_960_720.jpg" alt="fashion" />
         </div>
         <div class="new-collection">
         <h1>New Collection</h1>
@@ -16,17 +16,17 @@ const Home = () => {
         </div>
         </div>
         <div class="promotion">
-        <h1>Check out our sales!</h1>
+            <h1>Check out our sales!</h1>
         </div>
         <div class="get-inspired">
         <h1>Get Inspired</h1>
-        <div class="slider">
-            <p>L</p>
-            <img src="https://cdn.pixabay.com/photo/2016/10/16/12/28/mehndi-designs-1745048_960_720.jpg" alt="mehndi" />
-            <p>P</p>
+            <div class="slider">
+                <p>L</p>
+                <img src="https://cdn.pixabay.com/photo/2016/10/16/12/28/mehndi-designs-1745048_960_720.jpg" alt="mehndi" />
+                <p>P</p>
+            </div>
         </div>
-        </div>
-    </div>
+    </main>
   )
 }
 

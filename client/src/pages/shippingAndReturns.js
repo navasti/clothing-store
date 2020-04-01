@@ -2,7 +2,7 @@ import React from 'react'
 
 const ShippingAndReturns = () => {
     return (
-    <div class="shipping-returns">
+    <section class="shipping-returns">
         <h1>Shipping & Returns</h1>
         <div class="delivery">
           <h2>Delivery</h2>
@@ -17,7 +17,7 @@ const ShippingAndReturns = () => {
             <p>Nulla tincidunt dapibus mi, sed feugiat augue commodo quis. Donec facilisis iaculis nisi, congue bibendum ligula pulvinar id. Sed ut malesuada erat. Phasellus ornare nisi non nibh imperdiet vestibulum. Vivamus efficitur, justo et lacinia lacinia, leo nunc pharetra eros, non lobortis justo orci vitae velit. In posuere tincidunt justo in tristique. In leo odio, suscipit a nisl ut, convallis congue neque.</p>
           </div>
         </div>
-    </div>
+    </section>
     )
 }
 

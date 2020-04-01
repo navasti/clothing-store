@@ -1,14 +1,14 @@
 import React from 'react';
 import './styles/styles.css';
-
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Router from './routes';
 
 function App() {
   return (
-    <div className="app">
+    <div className="container">
       <Header />
-      <h1>first product</h1>
+        <Router/>
       <Footer />
     </div>
   );

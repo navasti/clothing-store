@@ -2,7 +2,7 @@ import React from 'react'
 
 const TermAndCondition = () => {
     return (
-    <div class="terms-condition">
+    <section class="terms-condition">
         <h1>Terms & Condition</h1>
         <div class="use-terms">
           <h2>Terms of use</h2>
@@ -16,7 +16,7 @@ const TermAndCondition = () => {
           <h2>Security & Privacy</h2>
           <p>Vivamus consectetur, elit in rhoncus egestas, nisl risus dictum odio, vitae vestibulum nunc risus non felis. Phasellus semper eget libero a efficitur. Integer ullamcorper tristique suscipit. Donec dignissim orci justo, a condimentum nunc maximus id. Morbi rutrum vel dolor nec porttitor. Nullam sollicitudin lacus est, vel gravida tellus fermentum ut. Sed eleifend, velit ut varius tincidunt, purus risus semper nisl, at feugiat nisl ex nec dolor. Phasellus varius convallis eros nec bibendum. Vivamus in turpis nec erat fringilla congue. Vivamus eros risus, pulvinar nec rutrum vel, finibus ut enim. Vivamus efficitur, justo et lacinia lacinia, leo nunc pharetra eros, non lobortis justo orci vitae velit. Sed vel turpis quam. Aliquam tempus risus nisi, sed finibus dui cursus sed. Nam pellentesque faucibus leo et rhoncus.</p>
         </div>
-    </div>
+    </section>
     )
 }
 

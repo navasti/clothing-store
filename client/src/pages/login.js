@@ -8,12 +8,12 @@ const Login = () => {
         <form>
           <label for="username">Username</label>
           <input type="text" id="username"/>
-           <label for="password">Password</label>
+          <label for="password">Password</label>
           <input type="password" id="password"/>
           <button>Sign in</button>
         </form>
         <div class="help">
-          <NavLink to="/forgotten-password">Forgot password?</NavLink>
+          <NavLink to="/recover-account">Forgot password?</NavLink>
           <NavLink to="/create-account">Create an account</NavLink>
         </div>
       </div>
