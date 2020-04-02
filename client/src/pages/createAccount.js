@@ -1,8 +1,9 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 
 const CreateAccount = () => {
     return (
-    <div class="create-account">
+    <div className="create-account">
         <h1>Create an account</h1>
         <form>
             <label for="username">Username</label>
@@ -13,6 +14,7 @@ const CreateAccount = () => {
             <input type="password" id="password"/>
             <button>Sign up</button>
         </form>
+        <NavLink to="/login">Sign In</NavLink>
     </div>
     )
 }

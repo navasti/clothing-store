@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Login = () => {
     return (
-    <div class="login">
+    <div className="login">
         <h1>Log in</h1>
         <form>
           <label for="username">Username</label>
@@ -12,7 +12,7 @@ const Login = () => {
           <input type="password" id="password"/>
           <button>Sign in</button>
         </form>
-        <div class="help">
+        <div className="help">
           <NavLink to="/recover-account">Forgot password?</NavLink>
           <NavLink to="/create-account">Create an account</NavLink>
         </div>
